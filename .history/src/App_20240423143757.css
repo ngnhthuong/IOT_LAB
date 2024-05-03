@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-name{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.member-name{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  width: 20rem;
+  padding: 2rem;
+} 
+
+.member{
+  display: flex;
+  left: 0;
+}

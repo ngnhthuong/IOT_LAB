@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-name{
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.member-name{
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  align-items: center;
+  padding-bottom: 0.5rem;
+} 
+
+.member{
+  display: flex;
+  left: 0;
+}
+
+.device{
+  font-size: 13px;
+  color: rgb(182, 182, 182);
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.main_device{
+  width: 300px;
+  height: auto;
+  background-color: rgb(237, 237, 237);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 60%;
+  height: 5rem;
+  align-items: center;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.time-status{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.time-green{
+  color: green;
+  font-weight: bold;
+}
+
+.time-red {
+  color: green;
+  font-weight: bold;
+}
+
+.status-green{
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: green;
+  border-radius:100px ;
+}
+
+.status-red {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+  border-radius: 100px;
+}
+
+.device_img{
+  width: 40%;
+  height: 5rem;
+}
+
+.back-head{
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  overflow: hidden;
+}
+
+.img-back{
+  width: 300px;
+  height: 300px;
+}
+
+.device_img-child{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-name{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 300px;
+}
+
+.member-name{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  padding: 2rem;
+  font-size: 10px;
+
+} 
+
+.member{
+  display: flex;
+  left: 0;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-name{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  /* width: 500px; */
+}
+
+.member-name{
+  display: flex;
+  flex-direction: column;
+  /* width: 250px; */
+  font-size: 13px;
+  align-items: center;
+  padding-bottom: 1rem;
+} 
+
+.member{
+  display: flex;
+  left: 0;
+}
+
+.device{
+  font-size: 13px;
+  color: rgb(182, 182, 182);
+  left: 0;
+}
+
+.main_device{
+  width: 300px;
+  height: auto;
+  background-color: aqua;
+  border-radius: 1rem;
+  padding
+}
